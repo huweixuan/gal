@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+            <title>Live2D 2233 Sample</title>
+        </meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=4.0">
+        </meta>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            
+            canvas {
+                display: inline-block;
+                background-image: url(assets/image/back_class_normal.png);
+            }
+        </style>
+    </head>
+
+    <body onload="initSample()">
+        <canvas id="22glcanvas" width="512" height="512"></canvas>
+
+        <canvas id="33glcanvas" width="512" height="512"></canvas>
+
+        <div id="myconsole" style="color:#BBB">---- Log ----</div>
+
+        <!-- Live2D Library -->
+        <script src="../../lib/live2d.min.js"></script>
+
+        <!-- User's Script -->
+        <script src="src/Simple.js"></script>
+        <script src="src/Sample2233.js"></script>
+    </body>
+</html>
